@@ -27,6 +27,9 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['dhruv-meghwal-247o.onrender.com']
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://dhruv-meghwal-247o.onrender.com"
+]
 
 # Application definition
 
